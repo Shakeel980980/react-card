@@ -17,6 +17,7 @@ function ProductTab() {
         vitamins={vitamins[0]}
         BtnName="Click to Visit Mango"
         websitelink="https://www.health.com/nutrition/health-benefits-mango"
+        price={420}
       />
       <Product
         image="src/assets/apple.jpg"
@@ -25,6 +26,7 @@ function ProductTab() {
         vitamins={vitamins[1]}
         BtnName="Click to Visit Apple"
         websitelink="https://www.health.com/medications-not-to-mix-apple-cider-vinegar-8762499"
+        price={300}
       />
       <Product
         image="src/assets/cherry.jpg"
@@ -33,6 +35,7 @@ function ProductTab() {
         vitamins={vitamins[2]}
         BtnName="Click to Visit Cherry"
         websitelink="https://www.health.com/tart-cherry-juice-benefits-8673562"
+        price={450}
       />
       <Product
         image="src/assets/banana.jpg"
@@ -41,6 +44,7 @@ function ProductTab() {
         vitamins={vitamins[3]}
         BtnName="Click to Visit Banana"
         websitelink="https://www.health.com/ask-health-banana-before-workout-8620229"
+        price={400}
       />
       <Product
         image="src/assets/orange.jpg"
@@ -49,6 +53,7 @@ function ProductTab() {
         vitamins={vitamins[4]}
         BtnName="Click to Visit Orange"
         websitelink="https://www.webmd.com/food-recipes/health-benefits-oranges"
+        price={200}
       />
     </div>
   );
